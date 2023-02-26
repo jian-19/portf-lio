@@ -367,6 +367,7 @@ footer {
     margin-bottom: 5%;
     box-shadow: 0px 1px 5px #ff0000;
     border-radius: 10px 0px;
+    outline:none;
 }
 
 .email {
@@ -377,13 +378,13 @@ footer {
     width: 200%;
     height: 4vh;
     margin-bottom: 5%;
-    box-shadow: 0px 1px 5px #ff0000;
     border-radius: 10px 0px;
+    outline:none;
 }
 
 .caixa_text {
     padding: 5%;
-    color: #ffffff;
+    color: #888282;
     font-family: "montserrat";
     text-align: center;
     background: rgba(255, 255, 255, 0.1);
@@ -392,6 +393,7 @@ footer {
     margin-bottom: 5%;
     box-shadow: 0px 1px 5px #ff0000;
     border-radius: 10px 0px;
+    outline:none;
 }
 
 .enviar {
