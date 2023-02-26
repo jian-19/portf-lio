@@ -1,42 +1,32 @@
-@media screen  and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
 
     .options {
         font-size: 20px;
-        display: inline-flex;
-        color: aliceblue;
-        text-decoration: none;
-        font-family: "montserrat";
         align-items: end;
         margin: 1% 1em;
-        transition: transform 95ms linear, opacity 95ms ease-in-out;
     }
 
     .text {
         font-size: 13px;
-        text-align: center;
-        color: #ffffff;
         margin: 5% 5%;
         line-height: 2;
     }
     
     .sobre_ {
-        font-family: "montserrat";
-        color: #ff0000;
         font-size: 3em;
-        text-align: center;
-        transition: transform 95ms linear, opacity 95ms ease-in-out;
     }
 
     .logo_dev {
-        width: 40%;
-        height: 30vh;
+        width: 45%;
+        height: 35vh;
         border-radius: 100%;
         border-right: #ff0000 solid 10px;
     }
     
     .logo_dev:hover {
-        width: 40%;
-        height: 40vh;
+        width: 45%;
+        height: 35vh;
+        border-radius: 100%;
         border-radius: 100%;
         border-right: #ffffff solid 10px;
         transform: scale(1.05);
@@ -44,7 +34,7 @@
     }
 
     .skills_ {
-        font-size: 4em;
+        font-size: 3em;
     }
 
     .cards {
@@ -64,66 +54,36 @@
         
     .one {
         margin-right: 10%;
-        text-decoration: none;
         width: 100%;
         height: 20em;
-        background: rgba(255, 255, 255, 0.1);
-        box-shadow: 0px 1px 5px #ff0000;
-        border-radius: 25px 0px;
-        transition: transform 95ms linear, opacity 95ms ease-in-out;
     }
 
     .two {
         margin-right: 10%;
-        text-decoration: none;
         width: 100%;
         height: 20em;
-        background: rgba(255, 255, 255, 0.1);
-        box-shadow: 0px 1px 5px #ff0000;
-        border-radius: 25px 0px;
-        transition: transform 95ms linear, opacity 95ms ease-in-out;
     }
 
     .tree {
-        text-decoration: none;
         width: 100%;
         height: 20em;
-        background: rgba(255, 255, 255, 0.1);
-        box-shadow: 0px 1px 5px #ff0000;
-        border-radius: 25px 0px;
-        transition: transform 95ms linear, opacity 95ms ease-in-out;
     }
 
     .four {
         margin-right: 10%;
-        text-decoration: none;
         width: 100%;
         height: 20em;
-        background: rgba(255, 255, 255, 0.1);
-        box-shadow: 0px 1px 5px #ff0000;
-        border-radius: 25px 0px;
-        transition: transform 95ms linear, opacity 95ms ease-in-out;
     }
 
     .five {
         margin-right: 10%;
-        text-decoration: none;
         width: 100%;
         height: 20em;
-        background: rgba(255, 255, 255, 0.1);
-        box-shadow: 0px 1px 5px #ff0000;
-        border-radius: 25px 0px;
-        transition: transform 95ms linear, opacity 95ms ease-in-out;
     }
 
     .six {
-        text-decoration: none;
         width: 100%;
         height: 20em;
-        background: rgba(255, 255, 255, 0.1);
-        box-shadow: 0px 1px 5px #ff0000;
-        border-radius: 25px 0px;
-        transition: transform 95ms linear, opacity 95ms ease-in-out;
     }
 
     .svg_none {
@@ -196,11 +156,399 @@
         padding: 2%;
         color: #ffffff;
         width: 50%;
-        height: 4vh;
+        height: 6vh;
     }
     
     .search-bar {
         margin-right: 25%;
     }
 }
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+
+    .options {
+        font-size: 20px;
+        margin: 1% 1em;
+    }
+
+    .text {
+        font-size: 10px;
+        margin: 5% 5%;
+        line-height: 2;
+    }
+    
+    .sobre_ {
+        font-size: 3em;
+    }
+
+    .logo_dev {
+        width: 45%;
+        height: 35vh;
+        border-radius: 100%;
+        border-right: #ff0000 solid 8px;
+    }
+    
+    .logo_dev:hover {
+        width: 45%;
+        height: 40vh;
+        border-radius: 100%;
+        border-radius: 100%;
+        border-right: #ffffff solid 8px;
+        transform: scale(1.05);
+        opacity: 80%;
+    }
+
+    .skills_ {
+        font-size: 3em;
+    }
+
+    .cards {
+        padding-right: 0em;
+    }
+
+    .text_skill {
+        font-family: Arial;
+        color: #ffffff;
+        font-size: 8px;
+    }
+
+    .cards.-second {
+        padding-left: 0em;        
+    }
+
         
+    .one {
+        margin-right: 10%;
+        width: 100%;
+        height: 18em;
+    }
+
+    .two {
+        margin-right: 10%;
+        width: 100%;
+        height: 18em;
+    }
+
+    .tree {
+        width: 100%;
+        height: 18em;
+    }
+
+    .four {
+        margin-right: 10%;
+        width: 100%;
+        height: 18em;
+    }
+
+    .five {
+        margin-right: 10%;
+        width: 100%;
+        height: 18em;
+    }
+
+    .six {
+        width: 100%;
+        height: 18em;
+    }
+
+    .svg_css {
+        margin-top: 17%;
+        margin-bottom: 17%;
+        height: 25%;
+        width: 50%;
+    }
+    
+    .svg_html {
+        margin-top: 17%;
+        margin-bottom: 17%;
+        height: 25%;
+        width: 50%;
+    }
+    
+    .svg_git {
+        margin-top: 17%;
+        margin-bottom: 17%;
+        height: 25%;
+        width: 50%;
+    }
+    
+    .svg_js {
+        margin-top: 17%;
+        margin-bottom: 17%;
+        height: 25%;
+        width: 50%;
+    }
+    
+    .svg_python {
+        margin-top: 17%;
+        margin-bottom: 17%;
+        height: 25%;
+        width: 50%;
+    }
+
+    .svg_none {
+        width: 50%;
+        height: 25%;
+    }
+
+    .text_projetos {
+        font-family: "Arial";
+        color: #ffffff;
+        font-size: 10px;
+    }
+
+    .projetos_ {
+        font-size: 3em;
+    }
+    
+    .one_{
+        width: 30%;
+        height: 18em;
+    }
+    
+    .two_{
+        width: 30%;
+        height: 18em;
+    }
+    
+    .tree_{
+        width: 30%;
+        height: 18em;
+    }
+
+    .svg_projetos_one {
+        height: 35%;
+    }
+    
+    .svg_projetos_two {
+        height: 35%;
+    }
+    
+    .svg_projetos_tree {
+        height: 35%;
+    }
+    
+    .contato_ {
+        font-size: 3em;
+    }
+
+    .name {
+        padding: 5%;
+        color: #ffffff;
+        width: 140%;
+        height: 4vh;
+    }
+    
+    .email {
+        padding: 5%;
+        color: #ffffff;
+        width: 140%;
+        height: 4vh;
+    }
+    
+    .caixa_text {
+        padding: 5%;
+        width: 140%;
+        height: 40vh;
+    }
+    
+    .enviar {
+        margin-left: 35%;
+        padding: 2%;
+        color: #ffffff;
+        width: 40%;
+        height: 6vh;
+    }
+    
+    .search-bar {
+        margin-right: 25%;
+    }
+}
+
+
+@media screen and (min-width: 350px) and (max-width: 600px) {
+
+    .options {
+        font-size: 15px;
+        color: #fff;
+        margin: 1% 1em;
+    }
+
+    .text {
+        font-size: 7px;
+        line-height: 1;
+    }
+    
+    .sobre_ {
+        font-size: 2em;
+    }
+
+    .logo_dev {
+        width: 35%;
+        height: 20vh;
+        border-radius: 100%;
+        border-right: #ff0000 solid 4px;
+    }
+    
+    .logo_dev:hover {
+        width: 35%;
+        height: 20vh;
+        border-right: #ffffff solid 4px;
+    }
+
+    .skills_ {
+        margin-top: 10%;
+        font-size: 2em;
+        margin-bottom: 5%;
+    }
+
+    .cards {
+        padding-right: 0em;
+        margin: 0;
+        margin-bottom: 5%;
+    }
+
+    .text_skill {
+        font-family: Arial;
+        color: #ffffff;
+        font-size: 6px;
+    }
+
+    .cards.-second {
+        padding-left: 0em;      
+        margin: 0;  
+        margin-bottom: 5%;
+    }
+
+        
+    .one {
+        margin-left: 2%;
+        margin-right: 2%;
+        width: 100%;
+        height: 12em;
+
+    }
+
+    .two {
+        margin-right: 2%;
+        width: 100%;
+        height: 12em;
+
+    }
+
+    .tree {
+        margin-right: 2%;
+        width: 100%;
+        height: 12em;
+    }
+
+    .four {
+        margin-left: 2%;
+        margin-right: 2%;
+        width: 100%;
+        height: 12em;
+    }
+
+    .five {
+        margin-right: 2%;
+        width: 100%;
+        height: 12em;
+    }
+    
+    .six {
+        margin-right: 2%;
+        width: 100%;
+        height: 12em;
+    }
+
+    .svg_none {
+        height: 25%;
+    }
+
+    .text_projetos {
+        font-family: "Arial";
+        color: #ffffff;
+        font-size: 6px;
+    }
+
+    .projetos_ {
+        font-size: 2em;
+        margin-bottom: 10%;
+    }
+
+    .cards_projetos {
+        margin: 0;
+    }
+    
+    .one_{
+        margin-right: 2%;
+        margin-left: 2%;
+        width: 100%;
+        height: 10em;
+    }
+    
+    .two_{
+        margin-right: 2%;
+        width: 100%;
+        height: 10em;
+    }
+    
+    .tree_{
+        margin-right: 2%;
+        width: 100%;
+        height: 10em;
+    }
+
+    .svg_projetos_one {
+        height: 30%;
+    }
+    
+    .svg_projetos_two {
+        height: 30%;
+    }
+    
+    .svg_projetos_tree {
+        height: 30%;
+    }
+    
+    .contato_ {
+        font-size: 2em;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    .name {
+        padding: 5%;
+        color: #ffffff;
+        margin-left: 2%;
+        width: 130%;
+        height: 4vh;
+    }
+    
+    .email {
+        padding: 5%;
+        color: #ffffff;
+        margin-left: 2%;
+        width: 130%;
+        height: 4vh;
+    }
+    
+    .caixa_text {
+        padding: 5%;
+        margin-left: 2%;
+        width: 130%;
+        height: 40vh;
+    }
+    
+    .enviar {
+        margin-left: 35%;
+        padding: 2%;
+        color: #ffffff;
+        width: 40%;
+        height: 6vh;
+    }
+    
+    .search-bar {
+        margin-right: 25%;
+    }
+}
