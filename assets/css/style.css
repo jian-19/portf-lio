@@ -1,0 +1,431 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation {
+    display: block;
+}
+
+.options {
+    font-size: 25px;
+    display: inline-flex;
+    color: aliceblue;
+    text-decoration: none;
+    font-family: "montserrat";
+    align-items: center;
+    margin: 2% 3em;
+    transition: transform 95ms linear, opacity 95ms ease-in-out;
+}
+
+.options:hover {
+    text-decoration: underline;
+    color: #ff0000;
+    transform: scale(1.05);
+    opacity: 80%;
+}
+
+.part_1 {
+    display: flex;
+    margin: 4% 0%;
+}
+
+.texto {
+    align-items: center;
+}
+
+.text {
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+    margin: 5% 5%;
+    line-height: 2;
+}
+
+.sobre_ {
+    font-family: "montserrat";
+    color: #ff0000;
+    font-size: 5em;
+    text-align: center;
+    transition: transform 95ms linear, opacity 95ms ease-in-out;
+}
+
+.sobre_:hover{
+    color: #ffffff;
+    text-decoration: underline;
+    transform: scale(1.05);
+    opacity: 80%;
+}
+
+.logo_dev {
+    width: 40%;
+    height: 80vh;
+    border-radius: 100%;
+    border-right: #ff0000 solid 10px;
+}
+
+.logo_dev:hover {
+    width: 40%;
+    height: 80vh;
+    border-radius: 100%;
+    border-right: #ffffff solid 10px;
+    transform: scale(1.05);
+    opacity: 80%;
+}
+
+.skills_ {
+    font-family: "montserrat";
+    color: #ff0000;
+    font-size: 5em;
+    text-align: center;
+    font-family: "montserrat";
+    transition: transform 95ms linear, opacity 95ms ease-in-out;
+}
+
+.skills_:hover{
+    color: #ffffff;
+    text-decoration: underline;
+    transform: scale(1.05);
+    opacity: 80%;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 13em;
+    margin: 2% 3em;
+    transition: transform 95ms linear, opacity 95ms ease-in-out;
+}
+
+.cards.-second {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 13em;
+    margin: 2% 3em;
+    
+}
+
+.skills {
+    display: flex;
+    height: 100%;
+}
+
+.text_skill {
+    font-family: "montserrat";
+    color: #ffffff;
+    background: none;
+    padding: 0% 5%;
+    margin-top: -10%;
+
+}
+
+.one {
+    text-decoration: none;
+    width: 20%;
+    height: 30em;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 1px 5px #ff0000;
+    border-radius: 25px 0px;
+    transition: transform 95ms linear, opacity 95ms ease-in-out;
+}
+
+
+
+.two {
+    text-decoration: none;
+    width: 20%;
+    height: 30em;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 1px 5px #ff0000;
+    border-radius: 25px 0px;
+    transition: transform 95ms linear, opacity 95ms ease-in-out;
+}
+
+.tree {
+    text-decoration: none;
+    width: 20%;
+    height: 30em;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 1px 5px #ff0000;
+    border-radius: 25px 0px;
+    transition: transform 95ms linear, opacity 95ms ease-in-out;
+}
+
+.four {
+    text-decoration: none;
+    width: 23%;
+    height: 30em;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 1px 5px #ff0000;
+    border-radius: 25px 0px;
+    transition: transform 95ms linear, opacity 95ms ease-in-out;
+}
+
+.five {
+    text-decoration: none;
+    width: 23%;
+    height: 30em;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 1px 5px #ff0000;
+    border-radius: 25px 0px;
+    transition: transform 95ms linear, opacity 95ms ease-in-out;
+}
+
+.six {
+    text-decoration: none;
+    width: 23%;
+    height: 30em;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 1px 5px #ff0000;
+    border-radius: 25px 0px;
+    transition: transform 95ms linear, opacity 95ms ease-in-out;
+}
+
+.one:hover {
+    transform: scale(1.05);
+}
+
+.two:hover {
+    transform: scale(1.05);
+}
+
+.tree:hover {
+    transform: scale(1.05);
+}
+
+.four:hover {
+    transform: scale(1.05);
+}
+
+.five:hover {
+    transform: scale(1.05);
+}
+
+.six:hover {
+    transform: scale(1.05);
+}
+
+.svg_css {
+    background: none;
+    height: 50%;
+    width: 50%;
+    margin-left: 25%;
+
+}
+
+.svg_html {
+    background: none;
+    height: 50%;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.svg_git {
+    background: none;
+    height: 50%;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.svg_js {
+    background: none;
+    height: 50%;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.svg_python {
+    background: none;
+    height: 50%;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.svg_none {
+    background: none;
+    height: 30%;
+    width: 50%;
+    margin-top: 17%;
+    margin-left: 25%;
+    margin-bottom: 17%;
+}
+
+.projetos_ {
+    font-family: "montserrat";
+    color: #ff0000;
+    font-size: 5em;
+    text-align: center;
+    font-family: "montserrat";
+    transition: transform 95ms linear, opacity 95ms ease-in-out;
+}
+
+.projetos_:hover{
+    color: #ffffff;
+    text-decoration: underline;
+    transform: scale(1.05);
+    opacity: 80%;
+}
+
+.cards_projetos {
+    display: flex;
+    justify-content: space-around;
+    margin: 5% 5em;
+    transition: transform 95ms linear, opacity 95ms ease-in-out;
+}
+
+.one_{
+    text-decoration: none;
+    width: 20%;
+    height: 25em;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 1px 5px #ff0000;
+    border-radius: 25px 0px;
+    transition: transform 95ms linear, opacity 95ms ease-in-out;
+}
+
+.one_:hover {
+    transform: scale(1.05);
+}
+
+.two_{
+    text-decoration: none;
+    width: 20%;
+    height: 25em;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 1px 5px #ff0000;
+    border-radius: 25px 0px;
+    transition: transform 95ms linear, opacity 95ms ease-in-out;
+}
+
+.two_:hover {
+    transform: scale(1.05);
+}
+
+.tree_{
+    text-decoration: none;
+    width: 20%;
+    height: 25em;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 1px 5px #ff0000;
+    border-radius: 25px 0px;
+    transition: transform 95ms linear, opacity 95ms ease-in-out;
+}
+
+.tree_:hover {
+    transform: scale(1.05);
+}
+
+.svg_projetos_one {
+    background: none;
+    margin-top: 5%;
+}
+
+.svg_projetos_two {
+    background: none;
+    margin-top: 5%;
+}
+
+.svg_projetos_tree {
+    background: none;
+    margin-top: 5%;
+}
+
+.text_projetos {
+    font-family: "montserrat";
+    color: #ffffff;
+    background: none;
+    padding: 0% 5%;
+    margin-top: 0%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+
+}
+.search-bar {
+    margin-right: 15%;
+    text-align: center;
+}
+
+.name {
+    padding: 5%;
+    color: #ffffff;
+    font-family: "montserrat";
+    background: rgba(255, 255, 255, 0.1);
+    width: 200%;
+    height: 4vh;
+    margin-bottom: 5%;
+    box-shadow: 0px 1px 5px #ff0000;
+    border-radius: 10px 0px;
+}
+
+.email {
+    padding: 5%;
+    color: #ffffff;
+    font-family: "montserrat";
+    background: rgba(255, 255, 255, 0.1);
+    width: 200%;
+    height: 4vh;
+    margin-bottom: 5%;
+    box-shadow: 0px 1px 5px #ff0000;
+    border-radius: 10px 0px;
+}
+
+.caixa_text {
+    padding: 5%;
+    color: #ffffff;
+    font-family: "montserrat";
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    width: 200%;
+    height: 40vh;
+    margin-bottom: 5%;
+    box-shadow: 0px 1px 5px #ff0000;
+    border-radius: 10px 0px;
+}
+
+.enviar {
+    margin-left: 70%;
+    padding: 2%;
+    color: #ffffff;
+    font-family: "montserrat";
+    background: rgba(255, 255, 255, 0.1);
+    width: 50%;
+    height: 4vh;
+    box-shadow: 0px 1px 5px #ff0000;
+    border-radius: 10px 0px;
+    transition: transform 95ms linear, opacity 95ms ease-in-out;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    transform: scale(1.05);
+    background: rgba(255, 0, 0, 0.623);
+}
+
+.contato_ {
+    font-family: "montserrat";
+    color: #ff0000;
+    font-size: 5em;
+    text-align: center;
+    font-family: "montserrat";
+    transition: transform 95ms linear, opacity 95ms ease-in-out;
+    margin-bottom: 5%;
+}
+
+.contato_:hover{
+    color: #ffffff;
+    text-decoration: underline;
+    transform: scale(1.05);
+    opacity: 80%;
+}
