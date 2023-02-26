@@ -501,14 +501,17 @@
 
     .svg_projetos_one {
         height: 30%;
+        margin-top: 15%;
     }
     
     .svg_projetos_two {
         height: 30%;
+        margin-top: 15%;
     }
     
     .svg_projetos_tree {
         height: 30%;
+        margin-top: 15%;
     }
     
     .contato_ {
@@ -537,7 +540,7 @@
         padding: 5%;
         margin-left: 2%;
         width: 130%;
-        height: 40vh;
+        height: 20vh;
     }
     
     .enviar {
