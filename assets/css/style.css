@@ -385,6 +385,7 @@ footer {
 }
 
 .caixa_text {
+    color: grey;
     padding: 5%;
     font-family: "montserrat";
     text-align: center;
