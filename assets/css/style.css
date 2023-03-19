@@ -26,6 +26,7 @@
     transition: transform 95ms linear, opacity 95ms ease-in-out;
 }
 
+
 .options:hover {
     text-decoration: underline;
     color: #ff0000;
